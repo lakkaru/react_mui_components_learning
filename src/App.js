@@ -1,5 +1,6 @@
 import "./App.css";
-import MuiPaper from "./components/MuiPaper";
+import MuiCard from "./components/MuiCard";
+// import MuiPaper from "./components/MuiPaper";
 // import MuiRating from "./components/MuiRating";
 // import MuiAutoCompleate from "./components/MuiAutoCompleate";
 // import MuiBox from "./components/MuiBox";
@@ -15,7 +16,8 @@ function App() {
       {/* <MuiBox/> */}
       {/* <MuiStack/> */}
       {/* <MuiGrid /> */}
-      <MuiPaper/>
+      {/* <MuiPaper/> */}
+      <MuiCard/>
     </div>
   );
 }
