@@ -1,17 +1,19 @@
-import logo from "./logo.svg";
 import "./App.css";
-import MuiRating from "./components/MuiRating";
-import MuiAutoCompleate from "./components/MuiAutoCompleate";
-import MuiBox from "./components/MuiBox";
-import MuiStack from "./components/MuiStack";
+// import MuiRating from "./components/MuiRating";
+// import MuiAutoCompleate from "./components/MuiAutoCompleate";
+// import MuiBox from "./components/MuiBox";
+// import MuiStack from "./components/MuiStack";
+import MuiGrid from "./components/MuiGrid";
 
 function App() {
   return (
     <div className="App">
       {/* <MuiRating/> */}
-      {/* <MuiAutoCompleate /> */}
+      {/* <MuiAutoCompleate />   */}
+      {/* -----------layout components ---------*/}
       {/* <MuiBox/> */}
-      <MuiStack/>
+      {/* <MuiStack/> */}
+      <MuiGrid />
     </div>
   );
 }

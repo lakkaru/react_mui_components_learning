@@ -1,7 +1,7 @@
 import { Autocomplete, Stack, TextField } from "@mui/material";
 import React, { useState } from "react";
 
-export default function () {
+export default function MuiAutoCompleate() {
   const skills = ["HTML", "CSS", "JS", "React", "PHP"];
   const [value, setValue] = useState(null);
   const [skill, setSkill] = useState({});
