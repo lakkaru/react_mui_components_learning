@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import MuiRating from './components/MuiRating';
+import logo from "./logo.svg";
+import "./App.css";
+import MuiRating from "./components/MuiRating";
+import MuiAutoCompleate from "./components/MuiAutoCompleate";
 
 function App() {
   return (
     <div className="App">
-   <MuiRating/>
+      {/* <MuiRating/> */}
+      <MuiAutoCompleate />
     </div>
   );
 }
