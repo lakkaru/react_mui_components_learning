@@ -3,6 +3,7 @@ import "./App.css";
 import MuiRating from "./components/MuiRating";
 import MuiAutoCompleate from "./components/MuiAutoCompleate";
 import MuiBox from "./components/MuiBox";
+import MuiStack from "./components/MuiStack";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* <MuiRating/> */}
       {/* <MuiAutoCompleate /> */}
       {/* <MuiBox/> */}
+      <MuiStack/>
     </div>
   );
 }
