@@ -1,9 +1,10 @@
 import "./App.css";
+import MuiPaper from "./components/MuiPaper";
 // import MuiRating from "./components/MuiRating";
 // import MuiAutoCompleate from "./components/MuiAutoCompleate";
 // import MuiBox from "./components/MuiBox";
 // import MuiStack from "./components/MuiStack";
-import MuiGrid from "./components/MuiGrid";
+// import MuiGrid from "./components/MuiGrid";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* -----------layout components ---------*/}
       {/* <MuiBox/> */}
       {/* <MuiStack/> */}
-      <MuiGrid />
+      {/* <MuiGrid /> */}
+      <MuiPaper/>
     </div>
   );
 }
